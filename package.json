@@ -1,8 +1,8 @@
 {
-  "name": "cdk8s-kuma-types",
+  "name": "@opencdk8s/cdk8s-kuma-types",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aatman.bos/cdk8s-kuma-types.git"
+    "url": "https://github.com/opencdk8s/cdk8s-kuma-types.git"
   },
   "scripts": {
     "clobber": "npx projen clobber",
@@ -22,6 +22,7 @@
     "eslint": "npx projen eslint",
     "compat": "npx projen compat",
     "publish:npm": "npx projen publish:npm",
+    "publish:pypi": "npx projen publish:pypi",
     "docgen": "npx projen docgen",
     "release": "npx projen release",
     "projen": "npx projen",
@@ -29,7 +30,7 @@
   },
   "author": {
     "name": "Hunter Thompson",
-    "email": "aatman.bos@smallcase.com",
+    "email": "aatman@auroville.org.in",
     "organization": false
   },
   "devDependencies": {
@@ -37,9 +38,9 @@
     "@types/node": "^10.17.0",
     "@typescript-eslint/eslint-plugin": "^4.28.4",
     "@typescript-eslint/parser": "^4.28.4",
-    "cdk8s": "1.0.0-beta.10",
-    "cdk8s-plus-17": "1.0.0-beta.10",
-    "constructs": "3.2.34",
+    "cdk8s": "1.0.0-beta.24",
+    "cdk8s-plus-17": "1.0.0-beta.28",
+    "constructs": "3.3.80",
     "eslint": "^7.31.0",
     "eslint-import-resolver-node": "^0.3.4",
     "eslint-import-resolver-typescript": "^2.4.0",
@@ -58,9 +59,9 @@
     "typescript": "^4.3.5"
   },
   "peerDependencies": {
-    "cdk8s": "^1.0.0-beta.10",
-    "cdk8s-plus-17": "^1.0.0-beta.10",
-    "constructs": "^3.2.34"
+    "cdk8s": "^1.0.0-beta.24",
+    "cdk8s-plus-17": "^1.0.0-beta.28",
+    "constructs": "^3.3.80"
   },
   "bundledDependencies": [],
   "keywords": [
@@ -112,7 +113,12 @@
   "stability": "stable",
   "jsii": {
     "outdir": "dist",
-    "targets": {},
+    "targets": {
+      "python": {
+        "distName": "cdk8s-kuma-types",
+        "module": "cdk8s_kuma_types"
+      }
+    },
     "tsc": {
       "outDir": "lib",
       "rootDir": "src"
