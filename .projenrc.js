@@ -1,4 +1,4 @@
-const { ConstructLibraryCdk8s } = require('projen');
+const { ConstructLibraryCdk8s, NpmAccess } = require('projen');
 const project = new ConstructLibraryCdk8s({
   author: 'Hunter Thompson',
   authorAddress: 'aatman@auroville.org.in',
@@ -9,6 +9,8 @@ const project = new ConstructLibraryCdk8s({
   name: '@opencdk8s/cdk8s-kuma-types',
   repositoryUrl: 'https://github.com/opencdk8s/cdk8s-kuma-types.git',
   mergify: true,
+
+  npmAccess: NpmAccess.PUBLIC,
   python: {
     distName: 'cdk8s-kuma-types',
     module: 'cdk8s_kuma_types',
