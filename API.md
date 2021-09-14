@@ -6,7 +6,7 @@
 
 CircuitBreaker is the Schema for the circuitbreaker API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.CircuitBreaker.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.CircuitBreaker.Initializer"></a>
 
 ```typescript
 import { CircuitBreaker } from '@opencdk8s/cdk8s-kuma-types'
@@ -72,7 +72,7 @@ Returns the apiVersion and kind for "CircuitBreaker".
 
 Dataplane is the Schema for the dataplanes API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.Dataplane.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.Dataplane.Initializer"></a>
 
 ```typescript
 import { Dataplane } from '@opencdk8s/cdk8s-kuma-types'
@@ -138,7 +138,7 @@ Returns the apiVersion and kind for "Dataplane".
 
 DataplaneInsight is the Schema for the dataplane insights API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.DataplaneInsight.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.DataplaneInsight.Initializer"></a>
 
 ```typescript
 import { DataplaneInsight } from '@opencdk8s/cdk8s-kuma-types'
@@ -202,7 +202,7 @@ Returns the apiVersion and kind for "DataplaneInsight".
 
 ### ExternalService <a name="@opencdk8s/cdk8s-kuma-types.ExternalService"></a>
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.ExternalService.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.ExternalService.Initializer"></a>
 
 ```typescript
 import { ExternalService } from '@opencdk8s/cdk8s-kuma-types'
@@ -268,7 +268,7 @@ Returns the apiVersion and kind for "ExternalService".
 
 FaultInjection is the Schema for the faultinjections API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.FaultInjection.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.FaultInjection.Initializer"></a>
 
 ```typescript
 import { FaultInjection } from '@opencdk8s/cdk8s-kuma-types'
@@ -334,7 +334,7 @@ Returns the apiVersion and kind for "FaultInjection".
 
 HealthCheck is the Schema for the healthchecks API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.HealthCheck.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.HealthCheck.Initializer"></a>
 
 ```typescript
 import { HealthCheck } from '@opencdk8s/cdk8s-kuma-types'
@@ -400,7 +400,7 @@ Returns the apiVersion and kind for "HealthCheck".
 
 Mesh is the Schema for the meshes API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.Mesh.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.Mesh.Initializer"></a>
 
 ```typescript
 import { Mesh } from '@opencdk8s/cdk8s-kuma-types'
@@ -466,7 +466,7 @@ Returns the apiVersion and kind for "Mesh".
 
 MeshInsight is the Schema for the meshes insights API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.MeshInsight.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.MeshInsight.Initializer"></a>
 
 ```typescript
 import { MeshInsight } from '@opencdk8s/cdk8s-kuma-types'
@@ -532,7 +532,7 @@ Returns the apiVersion and kind for "MeshInsight".
 
 ProxyTemplate is the Schema for the proxytemplates API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.ProxyTemplate.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.ProxyTemplate.Initializer"></a>
 
 ```typescript
 import { ProxyTemplate } from '@opencdk8s/cdk8s-kuma-types'
@@ -598,7 +598,7 @@ Returns the apiVersion and kind for "ProxyTemplate".
 
 RateLimit is the Schema for the ratelimits API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.RateLimit.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.RateLimit.Initializer"></a>
 
 ```typescript
 import { RateLimit } from '@opencdk8s/cdk8s-kuma-types'
@@ -664,7 +664,7 @@ Returns the apiVersion and kind for "RateLimit".
 
 Retry is the Schema for the retries API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.Retry.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.Retry.Initializer"></a>
 
 ```typescript
 import { Retry } from '@opencdk8s/cdk8s-kuma-types'
@@ -730,7 +730,7 @@ Returns the apiVersion and kind for "Retry".
 
 ServiceInsight is the Schema for the services insights API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.ServiceInsight.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.ServiceInsight.Initializer"></a>
 
 ```typescript
 import { ServiceInsight } from '@opencdk8s/cdk8s-kuma-types'
@@ -796,7 +796,7 @@ Returns the apiVersion and kind for "ServiceInsight".
 
 Timeout is the Schema for the timeout API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.Timeout.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.Timeout.Initializer"></a>
 
 ```typescript
 import { Timeout } from '@opencdk8s/cdk8s-kuma-types'
@@ -862,7 +862,7 @@ Returns the apiVersion and kind for "Timeout".
 
 TrafficLog is the Schema for the trafficlogs API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.TrafficLog.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.TrafficLog.Initializer"></a>
 
 ```typescript
 import { TrafficLog } from '@opencdk8s/cdk8s-kuma-types'
@@ -928,7 +928,7 @@ Returns the apiVersion and kind for "TrafficLog".
 
 TrafficPermission is the Schema for the trafficpermissions API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.TrafficPermission.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.TrafficPermission.Initializer"></a>
 
 ```typescript
 import { TrafficPermission } from '@opencdk8s/cdk8s-kuma-types'
@@ -994,7 +994,7 @@ Returns the apiVersion and kind for "TrafficPermission".
 
 TrafficRoute is the Schema for the trafficroutes API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.TrafficRoute.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.TrafficRoute.Initializer"></a>
 
 ```typescript
 import { TrafficRoute } from '@opencdk8s/cdk8s-kuma-types'
@@ -1060,7 +1060,7 @@ Returns the apiVersion and kind for "TrafficRoute".
 
 TrafficTrace is the Schema for the traffictraces API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.TrafficTrace.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.TrafficTrace.Initializer"></a>
 
 ```typescript
 import { TrafficTrace } from '@opencdk8s/cdk8s-kuma-types'
@@ -1126,7 +1126,7 @@ Returns the apiVersion and kind for "TrafficTrace".
 
 VirtualOutbound is the Schema for the virtualoutbounds API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.VirtualOutbound.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.VirtualOutbound.Initializer"></a>
 
 ```typescript
 import { VirtualOutbound } from '@opencdk8s/cdk8s-kuma-types'
@@ -1192,7 +1192,7 @@ Returns the apiVersion and kind for "VirtualOutbound".
 
 Zone is the Schema for the zone API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.Zone.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.Zone.Initializer"></a>
 
 ```typescript
 import { Zone } from '@opencdk8s/cdk8s-kuma-types'
@@ -1258,7 +1258,7 @@ Returns the apiVersion and kind for "Zone".
 
 ZoneIngress is the Schema for the zone ingress API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.ZoneIngress.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.ZoneIngress.Initializer"></a>
 
 ```typescript
 import { ZoneIngress } from '@opencdk8s/cdk8s-kuma-types'
@@ -1324,7 +1324,7 @@ Returns the apiVersion and kind for "ZoneIngress".
 
 ZoneIngressInsight is the Schema for the zone ingress insight API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.ZoneIngressInsight.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.ZoneIngressInsight.Initializer"></a>
 
 ```typescript
 import { ZoneIngressInsight } from '@opencdk8s/cdk8s-kuma-types'
@@ -1390,7 +1390,7 @@ Returns the apiVersion and kind for "ZoneIngressInsight".
 
 ZoneInsight is the Schema for the zone insight API.
 
-#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.ZoneInsight.Initializer"></a>
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.ZoneInsight.Initializer"></a>
 
 ```typescript
 import { ZoneInsight } from '@opencdk8s/cdk8s-kuma-types'
@@ -1468,17 +1468,29 @@ const circuitBreakerProps: CircuitBreakerProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.CircuitBreakerProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.CircuitBreakerProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.CircuitBreakerProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
@@ -1498,11 +1510,19 @@ const dataplaneInsightProps: DataplaneInsightProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.DataplaneInsightProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.DataplaneInsightProps.property.metadata"></a>
+
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
 
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
@@ -1522,17 +1542,29 @@ const dataplaneProps: DataplaneProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.DataplaneProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.DataplaneProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.DataplaneProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
@@ -1550,17 +1582,29 @@ const externalServiceProps: ExternalServiceProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ExternalServiceProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ExternalServiceProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ExternalServiceProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
@@ -1580,17 +1624,29 @@ const faultInjectionProps: FaultInjectionProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.FaultInjectionProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.FaultInjectionProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.FaultInjectionProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
@@ -1610,17 +1666,29 @@ const healthCheckProps: HealthCheckProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.HealthCheckProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.HealthCheckProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.HealthCheckProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
@@ -1640,17 +1708,29 @@ const meshInsightProps: MeshInsightProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.MeshInsightProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.MeshInsightProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.MeshInsightProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
@@ -1670,11 +1750,19 @@ const meshProps: MeshProps = { ... }
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.MeshProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.MeshProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
@@ -1694,17 +1782,29 @@ const proxyTemplateProps: ProxyTemplateProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ProxyTemplateProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ProxyTemplateProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ProxyTemplateProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
@@ -1724,17 +1824,29 @@ const rateLimitProps: RateLimitProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.RateLimitProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.RateLimitProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.RateLimitProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
@@ -1754,17 +1866,29 @@ const retryProps: RetryProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.RetryProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.RetryProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.RetryProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
@@ -1784,17 +1908,29 @@ const serviceInsightProps: ServiceInsightProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ServiceInsightProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ServiceInsightProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ServiceInsightProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
@@ -1814,17 +1950,29 @@ const timeoutProps: TimeoutProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TimeoutProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TimeoutProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TimeoutProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
@@ -1844,17 +1992,29 @@ const trafficLogProps: TrafficLogProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TrafficLogProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TrafficLogProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TrafficLogProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
@@ -1874,17 +2034,29 @@ const trafficPermissionProps: TrafficPermissionProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TrafficPermissionProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TrafficPermissionProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TrafficPermissionProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
@@ -1904,17 +2076,29 @@ const trafficRouteProps: TrafficRouteProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TrafficRouteProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TrafficRouteProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TrafficRouteProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
@@ -1934,17 +2118,29 @@ const trafficTraceProps: TrafficTraceProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TrafficTraceProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TrafficTraceProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TrafficTraceProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
@@ -1964,17 +2160,29 @@ const virtualOutboundProps: VirtualOutboundProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.VirtualOutboundProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.VirtualOutboundProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.VirtualOutboundProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
@@ -1994,17 +2202,29 @@ const zoneIngressInsightProps: ZoneIngressInsightProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ZoneIngressInsightProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ZoneIngressInsightProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ZoneIngressInsightProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
@@ -2024,17 +2244,29 @@ const zoneIngressProps: ZoneIngressProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ZoneIngressProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ZoneIngressProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ZoneIngressProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
@@ -2054,17 +2286,29 @@ const zoneInsightProps: ZoneInsightProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ZoneInsightProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ZoneInsightProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ZoneInsightProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
@@ -2084,17 +2328,29 @@ const zoneProps: ZoneProps = { ... }
 
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ZoneProps.property.mesh"></a>
 
+```typescript
+public readonly mesh: string;
+```
+
 - *Type:* `string`
 
 ---
 
 ##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ZoneProps.property.metadata"></a>
 
+```typescript
+public readonly metadata: ApiObjectMetadata;
+```
+
 - *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ZoneProps.property.spec"></a>
+
+```typescript
+public readonly spec: any;
+```
 
 - *Type:* `any`
 
