@@ -1122,6 +1122,72 @@ Returns the apiVersion and kind for "TrafficTrace".
 
 ---
 
+### VirtualOutbound <a name="@opencdk8s/cdk8s-kuma-types.VirtualOutbound"></a>
+
+VirtualOutbound is the Schema for the virtualoutbounds API.
+
+#### Initializer <a name="@opencdk8s/cdk8s-kuma-types.VirtualOutbound.Initializer"></a>
+
+```typescript
+import { VirtualOutbound } from '@opencdk8s/cdk8s-kuma-types'
+
+new VirtualOutbound(scope: Construct, id: string, props?: VirtualOutboundProps)
+```
+
+##### `scope`<sup>Required</sup> <a name="@opencdk8s/cdk8s-kuma-types.VirtualOutbound.parameter.scope"></a>
+
+- *Type:* [`constructs.Construct`](#constructs.Construct)
+
+the scope in which to define this object.
+
+---
+
+##### `id`<sup>Required</sup> <a name="@opencdk8s/cdk8s-kuma-types.VirtualOutbound.parameter.id"></a>
+
+- *Type:* `string`
+
+a scope-local name for the object.
+
+---
+
+##### `props`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.VirtualOutbound.parameter.props"></a>
+
+- *Type:* [`@opencdk8s/cdk8s-kuma-types.VirtualOutboundProps`](#@opencdk8s/cdk8s-kuma-types.VirtualOutboundProps)
+
+initialization props.
+
+---
+
+
+#### Static Functions <a name="Static Functions"></a>
+
+##### `manifest` <a name="@opencdk8s/cdk8s-kuma-types.VirtualOutbound.manifest"></a>
+
+```typescript
+import { VirtualOutbound } from '@opencdk8s/cdk8s-kuma-types'
+
+VirtualOutbound.manifest(props?: VirtualOutboundProps)
+```
+
+###### `props`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.VirtualOutbound.parameter.props"></a>
+
+- *Type:* [`@opencdk8s/cdk8s-kuma-types.VirtualOutboundProps`](#@opencdk8s/cdk8s-kuma-types.VirtualOutboundProps)
+
+initialization props.
+
+---
+
+
+#### Constants <a name="Constants"></a>
+
+##### `GVK` <a name="@opencdk8s/cdk8s-kuma-types.VirtualOutbound.property.GVK"></a>
+
+- *Type:* [`cdk8s.GroupVersionKind`](#cdk8s.GroupVersionKind)
+
+Returns the apiVersion and kind for "VirtualOutbound".
+
+---
+
 ### Zone <a name="@opencdk8s/cdk8s-kuma-types.Zone"></a>
 
 Zone is the Schema for the zone API.
@@ -1406,6 +1472,12 @@ const circuitBreakerProps: CircuitBreakerProps = { ... }
 
 ---
 
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.CircuitBreakerProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
+
+---
+
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.CircuitBreakerProps.property.spec"></a>
 
 - *Type:* `any`
@@ -1430,6 +1502,12 @@ const dataplaneInsightProps: DataplaneInsightProps = { ... }
 
 ---
 
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.DataplaneInsightProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
+
+---
+
 ### DataplaneProps <a name="@opencdk8s/cdk8s-kuma-types.DataplaneProps"></a>
 
 Dataplane is the Schema for the dataplanes API.
@@ -1445,6 +1523,12 @@ const dataplaneProps: DataplaneProps = { ... }
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.DataplaneProps.property.mesh"></a>
 
 - *Type:* `string`
+
+---
+
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.DataplaneProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
@@ -1467,6 +1551,12 @@ const externalServiceProps: ExternalServiceProps = { ... }
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ExternalServiceProps.property.mesh"></a>
 
 - *Type:* `string`
+
+---
+
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ExternalServiceProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
@@ -1494,6 +1584,12 @@ const faultInjectionProps: FaultInjectionProps = { ... }
 
 ---
 
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.FaultInjectionProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
+
+---
+
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.FaultInjectionProps.property.spec"></a>
 
 - *Type:* `any`
@@ -1515,6 +1611,12 @@ const healthCheckProps: HealthCheckProps = { ... }
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.HealthCheckProps.property.mesh"></a>
 
 - *Type:* `string`
+
+---
+
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.HealthCheckProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
@@ -1542,6 +1644,12 @@ const meshInsightProps: MeshInsightProps = { ... }
 
 ---
 
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.MeshInsightProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
+
+---
+
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.MeshInsightProps.property.spec"></a>
 
 - *Type:* `any`
@@ -1559,6 +1667,12 @@ import { MeshProps } from '@opencdk8s/cdk8s-kuma-types'
 
 const meshProps: MeshProps = { ... }
 ```
+
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.MeshProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
+
+---
 
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.MeshProps.property.spec"></a>
 
@@ -1581,6 +1695,12 @@ const proxyTemplateProps: ProxyTemplateProps = { ... }
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ProxyTemplateProps.property.mesh"></a>
 
 - *Type:* `string`
+
+---
+
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ProxyTemplateProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
@@ -1608,6 +1728,12 @@ const rateLimitProps: RateLimitProps = { ... }
 
 ---
 
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.RateLimitProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
+
+---
+
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.RateLimitProps.property.spec"></a>
 
 - *Type:* `any`
@@ -1629,6 +1755,12 @@ const retryProps: RetryProps = { ... }
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.RetryProps.property.mesh"></a>
 
 - *Type:* `string`
+
+---
+
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.RetryProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
@@ -1656,6 +1788,12 @@ const serviceInsightProps: ServiceInsightProps = { ... }
 
 ---
 
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ServiceInsightProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
+
+---
+
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ServiceInsightProps.property.spec"></a>
 
 - *Type:* `any`
@@ -1677,6 +1815,12 @@ const timeoutProps: TimeoutProps = { ... }
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TimeoutProps.property.mesh"></a>
 
 - *Type:* `string`
+
+---
+
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TimeoutProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
@@ -1704,6 +1848,12 @@ const trafficLogProps: TrafficLogProps = { ... }
 
 ---
 
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TrafficLogProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
+
+---
+
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TrafficLogProps.property.spec"></a>
 
 - *Type:* `any`
@@ -1725,6 +1875,12 @@ const trafficPermissionProps: TrafficPermissionProps = { ... }
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TrafficPermissionProps.property.mesh"></a>
 
 - *Type:* `string`
+
+---
+
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TrafficPermissionProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
@@ -1752,6 +1908,12 @@ const trafficRouteProps: TrafficRouteProps = { ... }
 
 ---
 
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TrafficRouteProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
+
+---
+
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TrafficRouteProps.property.spec"></a>
 
 - *Type:* `any`
@@ -1776,7 +1938,43 @@ const trafficTraceProps: TrafficTraceProps = { ... }
 
 ---
 
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TrafficTraceProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
+
+---
+
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TrafficTraceProps.property.spec"></a>
+
+- *Type:* `any`
+
+---
+
+### VirtualOutboundProps <a name="@opencdk8s/cdk8s-kuma-types.VirtualOutboundProps"></a>
+
+VirtualOutbound is the Schema for the virtualoutbounds API.
+
+#### Initializer <a name="[object Object].Initializer"></a>
+
+```typescript
+import { VirtualOutboundProps } from '@opencdk8s/cdk8s-kuma-types'
+
+const virtualOutboundProps: VirtualOutboundProps = { ... }
+```
+
+##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.VirtualOutboundProps.property.mesh"></a>
+
+- *Type:* `string`
+
+---
+
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.VirtualOutboundProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
+
+---
+
+##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.VirtualOutboundProps.property.spec"></a>
 
 - *Type:* `any`
 
@@ -1797,6 +1995,12 @@ const zoneIngressInsightProps: ZoneIngressInsightProps = { ... }
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ZoneIngressInsightProps.property.mesh"></a>
 
 - *Type:* `string`
+
+---
+
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ZoneIngressInsightProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
@@ -1824,6 +2028,12 @@ const zoneIngressProps: ZoneIngressProps = { ... }
 
 ---
 
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ZoneIngressProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
+
+---
+
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ZoneIngressProps.property.spec"></a>
 
 - *Type:* `any`
@@ -1848,6 +2058,12 @@ const zoneInsightProps: ZoneInsightProps = { ... }
 
 ---
 
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ZoneInsightProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
+
+---
+
 ##### `spec`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ZoneInsightProps.property.spec"></a>
 
 - *Type:* `any`
@@ -1869,6 +2085,12 @@ const zoneProps: ZoneProps = { ... }
 ##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ZoneProps.property.mesh"></a>
 
 - *Type:* `string`
+
+---
+
+##### `metadata`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.ZoneProps.property.metadata"></a>
+
+- *Type:* [`cdk8s.ApiObjectMetadata`](#cdk8s.ApiObjectMetadata)
 
 ---
 
