@@ -16,6 +16,11 @@ const project = new ConstructLibraryCdk8s({
     module: 'cdk8s_kuma_types',
   },
 
+  publishToGo: {
+    gitUserName: 'Hunter-Thompson',
+    gitUserEmail: 'aatman@auroville.org.in',
+    moduleName: 'github.com/opencdk8s/cdk8s-kuma-types-go',
+  },
 
   // deps: [],                          /* Runtime dependencies of this module. */
   // description: undefined,            /* The description is just a string that helps people understand the purpose of the package. */

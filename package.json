@@ -14,7 +14,8 @@
     "test:update": "npx projen test:update",
     "bump": "npx projen bump",
     "unbump": "npx projen unbump",
-    "upgrade-dependencies": "npx projen upgrade-dependencies",
+    "publish:github": "npx projen publish:github",
+    "upgrade": "npx projen upgrade",
     "upgrade-projen": "npx projen upgrade-projen",
     "default": "npx projen default",
     "watch": "npx projen watch",
@@ -23,10 +24,10 @@
     "compat": "npx projen compat",
     "publish:npm": "npx projen publish:npm",
     "publish:pypi": "npx projen publish:pypi",
+    "publish:golang": "npx projen publish:golang",
     "docgen": "npx projen docgen",
     "release": "npx projen release",
-    "projen": "npx projen",
-    "start": "npx projen start"
+    "projen": "npx projen"
   },
   "author": {
     "name": "Hunter Thompson",
@@ -35,9 +36,9 @@
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",
-    "@types/node": "^10.17.0",
-    "@typescript-eslint/eslint-plugin": "^4.31.1",
-    "@typescript-eslint/parser": "^4.31.1",
+    "@types/node": "^14.17.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
     "cdk8s": "1.0.0-beta.27",
     "cdk8s-plus-17": "1.0.0-beta.50",
     "constructs": "3.3.120",
@@ -53,7 +54,7 @@
     "jsii-pacmak": "^1.34.0",
     "json-schema": "^0.3.0",
     "npm-check-updates": "^11",
-    "projen": "^0.27.6",
+    "projen": "^0.28.8",
     "standard-version": "^9",
     "ts-jest": "^27.0.5",
     "typescript": "^4.4.3"
@@ -120,6 +121,9 @@
       "python": {
         "distName": "cdk8s-kuma-types",
         "module": "cdk8s_kuma_types"
+      },
+      "go": {
+        "moduleName": "github.com/opencdk8s/cdk8s-kuma-types-go"
       }
     },
     "tsc": {
