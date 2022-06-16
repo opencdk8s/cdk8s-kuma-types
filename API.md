@@ -2372,6 +2372,16 @@ public readonly sources: string[];
 
 ---
 
+##### `destinationLabel`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.TypedKumaTrafficPermission.property.destinationLabel"></a>
+
+```typescript
+public readonly destinationLabel: string;
+```
+
+- *Type:* `string`
+
+---
+
 ### VirtualOutboundProps <a name="@opencdk8s/cdk8s-kuma-types.VirtualOutboundProps"></a>
 
 VirtualOutbound is the Schema for the virtualoutbounds API.

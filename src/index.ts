@@ -1744,6 +1744,7 @@ export interface TypedKumaExternalServiceOptions {
 export interface TypedKumaTrafficPermission {
   readonly mesh: string;
   readonly destination: string;
+  readonly destinationLabel?: string;
   readonly sources: string[];
 }
 
@@ -1827,6 +1828,8 @@ export class TypedTrafficPermission extends Construct {
       });
     });
 
+    const destinationLabel = opts.destinationLabel ? opts.destinationLabel : 'kuma.io/service';
+
     new TrafficPermission(this, name, {
       mesh: opts.mesh,
       metadata: {
@@ -1835,7 +1838,7 @@ export class TypedTrafficPermission extends Construct {
       spec: {
         destinations: [{
           match: {
-            'kuma.io/service': opts.destination,
+            [destinationLabel]: opts.destination,
           },
         }],
         sources: sources,
