@@ -396,6 +396,38 @@ Returns the apiVersion and kind for "HealthCheck".
 
 ---
 
+### Kuma <a name="@opencdk8s/cdk8s-kuma-types.Kuma"></a>
+
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.Kuma.Initializer"></a>
+
+```typescript
+import { Kuma } from '@opencdk8s/cdk8s-kuma-types'
+
+new Kuma(scope: Construct, name: string, opts: KumaOptions)
+```
+
+##### `scope`<sup>Required</sup> <a name="@opencdk8s/cdk8s-kuma-types.Kuma.parameter.scope"></a>
+
+- *Type:* [`constructs.Construct`](#constructs.Construct)
+
+---
+
+##### `name`<sup>Required</sup> <a name="@opencdk8s/cdk8s-kuma-types.Kuma.parameter.name"></a>
+
+- *Type:* `string`
+
+---
+
+##### `opts`<sup>Required</sup> <a name="@opencdk8s/cdk8s-kuma-types.Kuma.parameter.opts"></a>
+
+- *Type:* [`@opencdk8s/cdk8s-kuma-types.KumaOptions`](#@opencdk8s/cdk8s-kuma-types.KumaOptions)
+
+---
+
+
+
+
+
 ### Mesh <a name="@opencdk8s/cdk8s-kuma-types.Mesh"></a>
 
 Mesh is the Schema for the meshes API.
@@ -1122,6 +1154,70 @@ Returns the apiVersion and kind for "TrafficTrace".
 
 ---
 
+### TypedKumaExternalService <a name="@opencdk8s/cdk8s-kuma-types.TypedKumaExternalService"></a>
+
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.TypedKumaExternalService.Initializer"></a>
+
+```typescript
+import { TypedKumaExternalService } from '@opencdk8s/cdk8s-kuma-types'
+
+new TypedKumaExternalService(scope: Construct, name: string, opts: TypedKumaExternalServiceOptions)
+```
+
+##### `scope`<sup>Required</sup> <a name="@opencdk8s/cdk8s-kuma-types.TypedKumaExternalService.parameter.scope"></a>
+
+- *Type:* [`constructs.Construct`](#constructs.Construct)
+
+---
+
+##### `name`<sup>Required</sup> <a name="@opencdk8s/cdk8s-kuma-types.TypedKumaExternalService.parameter.name"></a>
+
+- *Type:* `string`
+
+---
+
+##### `opts`<sup>Required</sup> <a name="@opencdk8s/cdk8s-kuma-types.TypedKumaExternalService.parameter.opts"></a>
+
+- *Type:* [`@opencdk8s/cdk8s-kuma-types.TypedKumaExternalServiceOptions`](#@opencdk8s/cdk8s-kuma-types.TypedKumaExternalServiceOptions)
+
+---
+
+
+
+
+
+### TypedTrafficPermission <a name="@opencdk8s/cdk8s-kuma-types.TypedTrafficPermission"></a>
+
+#### Initializers <a name="@opencdk8s/cdk8s-kuma-types.TypedTrafficPermission.Initializer"></a>
+
+```typescript
+import { TypedTrafficPermission } from '@opencdk8s/cdk8s-kuma-types'
+
+new TypedTrafficPermission(scope: Construct, name: string, opts: TypedKumaTrafficPermission)
+```
+
+##### `scope`<sup>Required</sup> <a name="@opencdk8s/cdk8s-kuma-types.TypedTrafficPermission.parameter.scope"></a>
+
+- *Type:* [`constructs.Construct`](#constructs.Construct)
+
+---
+
+##### `name`<sup>Required</sup> <a name="@opencdk8s/cdk8s-kuma-types.TypedTrafficPermission.parameter.name"></a>
+
+- *Type:* `string`
+
+---
+
+##### `opts`<sup>Required</sup> <a name="@opencdk8s/cdk8s-kuma-types.TypedTrafficPermission.parameter.opts"></a>
+
+- *Type:* [`@opencdk8s/cdk8s-kuma-types.TypedKumaTrafficPermission`](#@opencdk8s/cdk8s-kuma-types.TypedKumaTrafficPermission)
+
+---
+
+
+
+
+
 ### VirtualOutbound <a name="@opencdk8s/cdk8s-kuma-types.VirtualOutbound"></a>
 
 VirtualOutbound is the Schema for the virtualoutbounds API.
@@ -1694,6 +1790,46 @@ public readonly spec: any;
 
 ---
 
+### KumaOptions <a name="@opencdk8s/cdk8s-kuma-types.KumaOptions"></a>
+
+#### Initializer <a name="[object Object].Initializer"></a>
+
+```typescript
+import { KumaOptions } from '@opencdk8s/cdk8s-kuma-types'
+
+const kumaOptions: KumaOptions = { ... }
+```
+
+##### `gatewayWhitelist`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.KumaOptions.property.gatewayWhitelist"></a>
+
+```typescript
+public readonly gatewayWhitelist: string[];
+```
+
+- *Type:* `string`[]
+
+---
+
+##### `mesh`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.KumaOptions.property.mesh"></a>
+
+```typescript
+public readonly mesh: string;
+```
+
+- *Type:* `string`
+
+---
+
+##### `serviceWhitelist`<sup>Optional</sup> <a name="@opencdk8s/cdk8s-kuma-types.KumaOptions.property.serviceWhitelist"></a>
+
+```typescript
+public readonly serviceWhitelist: string[];
+```
+
+- *Type:* `string`[]
+
+---
+
 ### MeshInsightProps <a name="@opencdk8s/cdk8s-kuma-types.MeshInsightProps"></a>
 
 MeshInsight is the Schema for the meshes insights API.
@@ -2143,6 +2279,96 @@ public readonly spec: any;
 ```
 
 - *Type:* `any`
+
+---
+
+### TypedKumaExternalServiceOptions <a name="@opencdk8s/cdk8s-kuma-types.TypedKumaExternalServiceOptions"></a>
+
+#### Initializer <a name="[object Object].Initializer"></a>
+
+```typescript
+import { TypedKumaExternalServiceOptions } from '@opencdk8s/cdk8s-kuma-types'
+
+const typedKumaExternalServiceOptions: TypedKumaExternalServiceOptions = { ... }
+```
+
+##### `mesh`<sup>Required</sup> <a name="@opencdk8s/cdk8s-kuma-types.TypedKumaExternalServiceOptions.property.mesh"></a>
+
+```typescript
+public readonly mesh: string;
+```
+
+- *Type:* `string`
+
+---
+
+##### `serviceAddress`<sup>Required</sup> <a name="@opencdk8s/cdk8s-kuma-types.TypedKumaExternalServiceOptions.property.serviceAddress"></a>
+
+```typescript
+public readonly serviceAddress: string;
+```
+
+- *Type:* `string`
+
+---
+
+##### `serviceName`<sup>Required</sup> <a name="@opencdk8s/cdk8s-kuma-types.TypedKumaExternalServiceOptions.property.serviceName"></a>
+
+```typescript
+public readonly serviceName: string;
+```
+
+- *Type:* `string`
+
+---
+
+##### `serviceProtocol`<sup>Required</sup> <a name="@opencdk8s/cdk8s-kuma-types.TypedKumaExternalServiceOptions.property.serviceProtocol"></a>
+
+```typescript
+public readonly serviceProtocol: string;
+```
+
+- *Type:* `string`
+
+---
+
+### TypedKumaTrafficPermission <a name="@opencdk8s/cdk8s-kuma-types.TypedKumaTrafficPermission"></a>
+
+#### Initializer <a name="[object Object].Initializer"></a>
+
+```typescript
+import { TypedKumaTrafficPermission } from '@opencdk8s/cdk8s-kuma-types'
+
+const typedKumaTrafficPermission: TypedKumaTrafficPermission = { ... }
+```
+
+##### `destination`<sup>Required</sup> <a name="@opencdk8s/cdk8s-kuma-types.TypedKumaTrafficPermission.property.destination"></a>
+
+```typescript
+public readonly destination: string;
+```
+
+- *Type:* `string`
+
+---
+
+##### `mesh`<sup>Required</sup> <a name="@opencdk8s/cdk8s-kuma-types.TypedKumaTrafficPermission.property.mesh"></a>
+
+```typescript
+public readonly mesh: string;
+```
+
+- *Type:* `string`
+
+---
+
+##### `sources`<sup>Required</sup> <a name="@opencdk8s/cdk8s-kuma-types.TypedKumaTrafficPermission.property.sources"></a>
+
+```typescript
+public readonly sources: string[];
+```
+
+- *Type:* `string`[]
 
 ---
 

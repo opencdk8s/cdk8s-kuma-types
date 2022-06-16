@@ -1726,3 +1726,122 @@ export function toJson_ZoneInsightProps(obj: ZoneInsightProps | undefined): Reco
 }
 /* eslint-enable max-len, quote-props */
 
+
+export interface KumaOptions {
+  readonly mesh?: string;
+  readonly serviceWhitelist?: string[];
+  readonly gatewayWhitelist?: string[];
+}
+
+export interface TypedKumaExternalServiceOptions {
+  readonly mesh: string;
+  readonly serviceName: string;
+  readonly serviceProtocol: string;
+  readonly serviceAddress: string;
+
+}
+
+export interface TypedKumaTrafficPermission {
+  readonly mesh: string;
+  readonly destination: string;
+  readonly sources: string[];
+}
+
+export class Kuma extends Construct {
+  constructor(scope: Construct, name: string, opts: KumaOptions) {
+    super(scope, name);
+
+    const source: any[] = [];
+
+    opts?.serviceWhitelist?.forEach(src => {
+      source.push({
+        match: {
+          app: src,
+        },
+      });
+    });
+
+    opts?.gatewayWhitelist?.forEach(src => {
+      source.push({
+        match: {
+          app: src,
+        },
+      });
+    });
+
+    if (source.length > 0) {
+      new TrafficPermission(this, `${name}-inbound`, {
+        mesh: opts.mesh,
+        metadata: {
+          name: `${name}-inbound`,
+        },
+        spec: {
+          destinations: [{
+            match: {
+              app: name,
+            },
+          }],
+          sources: source,
+        },
+      });
+    }
+  }
+}
+
+export class TypedKumaExternalService extends Construct {
+  constructor(scope: Construct, name: string, opts: TypedKumaExternalServiceOptions) {
+    super(scope, name);
+
+    new ExternalService(this, name, {
+      mesh: opts.mesh,
+      metadata: {
+        name: opts.serviceName,
+      },
+      spec: {
+        tags: {
+          'kuma.io/service': opts.serviceName,
+          'kuma.io/protocol': opts.serviceProtocol,
+        },
+        networking: {
+          address: opts.serviceAddress,
+          tls: {
+            enabled: false,
+          },
+        },
+      },
+    });
+
+  }
+}
+
+export class TypedTrafficPermission extends Construct {
+  constructor(scope: Construct, name: string, opts: TypedKumaTrafficPermission) {
+    super(scope, name);
+    const sources: any[] = [];
+
+    opts.sources?.forEach(v => {
+      sources.push({
+        match: {
+          app: v,
+        },
+      });
+    });
+
+    new TrafficPermission(this, name, {
+      mesh: opts.mesh,
+      metadata: {
+        name: name,
+      },
+      spec: {
+        destinations: [{
+          match: {
+            'kuma.io/service': opts.destination,
+          },
+        }],
+        sources: sources,
+      },
+    });
+
+  }
+}
+
