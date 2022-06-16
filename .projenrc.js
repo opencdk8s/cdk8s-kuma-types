@@ -2,8 +2,8 @@ const { ConstructLibraryCdk8s, NpmAccess } = require('projen');
 const project = new ConstructLibraryCdk8s({
   author: 'Hunter Thompson',
   authorAddress: 'aatman@auroville.org.in',
-  cdk8sVersion: '1.2.0',
-  constructsVersion: '3.3.161',
+  cdk8sVersion: '2.2.74',
+  constructsVersion: '10.0.5',
   defaultReleaseBranch: 'main',
   name: '@opencdk8s/cdk8s-kuma-types',
   repositoryUrl: 'https://github.com/opencdk8s/cdk8s-kuma-types.git',
